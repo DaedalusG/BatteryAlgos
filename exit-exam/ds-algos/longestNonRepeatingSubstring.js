@@ -1,4 +1,4 @@
-const longestNonRepeatingSubstring = function(string){
+const longestNonRepeatingSubstring = function (string) {
 
 };
 
