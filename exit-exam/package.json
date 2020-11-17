@@ -1,0 +1,20 @@
+{
+  "name": "exit-exam",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "react-install": "npm install --prefix react/Assessment",
+    "react-test": "npm run test --prefix react/Assessment",
+    "js-install": "npm install --prefix vanilla-js",
+    "js-test": "npm run test --prefix vanilla-js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/plugin-transform-react-jsx": "^7.10.4",
+    "jest": "^26.2.2"
+  }
+}

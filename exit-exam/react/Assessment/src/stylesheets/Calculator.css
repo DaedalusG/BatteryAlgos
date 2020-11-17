@@ -1,0 +1,66 @@
+.calculator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: space-evenly;
+  background: #1c1c1c;
+  border-radius: .4rem;
+  width: 450px;
+  height: 50vh;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  padding: 1rem;
+  font-size: calc(10px + 2vmin);
+}
+
+.display {
+  display: flex;
+  width: 80%;
+  height: 20%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: #ffffff;
+  border-radius: .4rem;
+  font-size: calc(10px + 4vmin);
+  background: #696969;
+}
+
+.number-inputs,
+.operation-selectors,
+.options {
+  width: 80%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+input,
+button {
+  height: 2.5rem;
+  width: 4rem;
+  font-size: calc(10px + 2vmin);
+  border-radius: .4rem;
+  border: 1px solid transparent;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  background: #696969;
+  color: #ffffff;
+  text-align: center;
+}
+
+.options button {
+  width: 8rem;
+}
+
+.clear {
+  background: #D0021B;
+}
+
+.error {
+  color: #D0021B;
+}
+
+button:focus,
+input:focus {
+  outline: none;
+}
